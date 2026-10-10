@@ -1,0 +1,7 @@
+# Optional Render Blueprint for a static site
+services:
+  - type: web
+    name: foxy-test
+    runtime: static
+    buildCommand: ""
+    staticPublishPath: .
